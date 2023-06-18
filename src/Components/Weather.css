@@ -1,0 +1,147 @@
+
+
+/* @font-face {
+    font-family: 'Winter Danced';
+    src:url('https://fonts.cdnfonts.com/css/winter-danced');
+    /* Include additional font file formats if necessary */
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    width: 402px;
+    height: 700px;
+    background: linear-gradient(169.28deg, #2E335A 3.28%, #1C1B33 95.89%);
+    box-shadow: -49.5102px 74.2653px 185.663px rgba(18, 6, 67, 0.7);
+    border-radius: 56.9367px;
+    margin-top: 20px;
+}
+
+.main-title div{
+    color:white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:30px;
+    line-height: 42px;
+    /* or 121% */
+
+    letter-spacing: 0.450543px;
+
+    margin-top:34px;
+    margin-left: 25px;
+}
+
+.search-bar input{
+    background: transparent;
+    border: none;
+    width:300px ;
+    color: white;
+    
+    
+}
+
+.search-bar input:focus {
+    outline: none;
+    background: transparent;
+    border: none;
+    
+  }
+
+.search-bar{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 330.12px;
+    height: 30px;
+    background: linear-gradient(168.44deg, rgba(46, 51, 90, 0.26) 1.62%, rgba(28, 27, 51, 0.26) 95.72%);
+    box-shadow: inset 0px 4.95102px 4.95102px rgba(0, 0, 0, 0.25);
+    border-radius: 12.3775px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.rect-shape{
+
+    margin-top: 35px;
+    border-radius: 10px 30px 10px 30px;
+    width: 300px;
+    height: 184px;
+    padding-top: 20px;
+
+    background: linear-gradient(90deg, #5936B4 0%, #362A84 103.55%);
+   
+}
+
+.outer-rect{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    flex-direction: column;
+}
+.outer-rect img{
+   /* height: 180px;
+    width: 220px;*/
+    margin-top: 30px;
+    animation-name: cloud;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    
+}
+
+@keyframes cloud{
+    0%,100%{
+        position: relative;
+        top:10px;
+        left:15px;
+    }
+    50%{
+        position: relative;
+        top:0px;
+        left:0px;
+
+    }
+}
+
+.rect-shape .place-text{
+    font-family: 'SF Pro Display',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    
+    /* identical to box height, or 121% */
+
+    text-align: center;
+    letter-spacing: 0.364px;
+
+    /* Color System/Label Colour/Dark/Primary */
+
+    color: #FFFFFF;
+}
+
+.rect-shape .temp-text{
+    margin-top: 40px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 41px;
+    /* identical to box height, or 64% */
+    letter-spacing: 0.374px;
+    color: #FFFFFF;
+}
+.temp-var{
+    font-family: 'SF Pro Display';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    border-top: 1px solid rgb(172, 212, 255);
+    line-height: 41px;
+    margin-top: 10px;
+
+}
